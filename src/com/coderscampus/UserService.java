@@ -21,7 +21,7 @@ public class UserService {
                     User user = new User(username, password, name);
                     users.add(user);
                 }
-            }
+            } 
             return this.users;
         } catch (IOException e) {
             e.printStackTrace();
