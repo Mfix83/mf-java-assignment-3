@@ -27,7 +27,7 @@ public class UserService {
             e.printStackTrace();
         }
         return null;
-    }
+    } 
 
     public boolean validateUser(String username, String password) {
         for (User user : users) {
